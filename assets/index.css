@@ -1,0 +1,85 @@
+.con {
+  background-color: black;
+  padding: 5px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important;
+}
+
+.div1 {
+  background-color: red;
+  width: 200px;
+}
+
+.div2 {
+  background-color: green;
+  width: 200px;
+}
+
+.div3 {
+  background-color: blue;
+  width: 200px;
+}
+
+/* -------------------------------learn responsive ------------------------ */
+
+.paraghraps {
+  display: flex;
+}
+
+.paragraphOne {
+  background-color: blue;
+}
+
+.paragraphThree {
+  background-color: red;
+}
+
+.button {
+  width: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  animation-name:
+}
+
+.button:hover{
+  animation-name: bounce;
+}
+
+
+@media (max-width:900px) {
+  .paraghraps {
+    display: block;
+  }
+  .paragraphOne {
+    text-align: justify;
+  }
+  .paragraphThree {
+    color: violet;
+  }
+}
+
+@media (max-width:400px) {
+  .paraghraps {
+    display: block;
+  }
+  .paragraphOne {
+    text-align: justify;
+    color: grey;
+  }
+  .button {
+    width: 100%;
+  }
+}
+@media (max-width:320px) {
+
+}
+
+
+.animated {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+}
